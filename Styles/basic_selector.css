@@ -1,0 +1,27 @@
+h1{
+    background-color: aliceblue;
+    color:pink
+}
+.hero{
+    background-color: black;
+    color:yellow;
+}
+#modak{
+    background-color:aqua;
+    color: olive;
+}
+*{
+    background-color: aliceblue;
+}
+h2{
+    border-style: dotted;
+    border-color: blue;
+    padding: 12px;
+    margin-left: 12px;
+}
+img{
+    border-style: dotted;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
