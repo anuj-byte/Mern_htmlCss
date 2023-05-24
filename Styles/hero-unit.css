@@ -1,0 +1,37 @@
+.hero-image{
+    background-image: url("../img/nature4.jpg");
+    height:70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;/* default it will take as given*/
+}
+.hero-tag{
+    font-size: 24px;
+    color:rgb(40, 63, 40);
+    position:absolute;/* with respect to the parents it will adjust*/
+    width: 500px;
+    height: 300px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);/*above two line and these line is to center the text*/
+    text-align: center;
+
+
+}
+.txt{
+    color: #ffffff;
+}
+button{
+    padding: 10px 10px;
+    background-color:rgb(25, 148, 189) ;
+    color:whitesmoke;
+    cursor: pointer;
+    border-radius: 38%;
+
+}
+button:hover{
+    background-color:aliceblue;
+    color:rgb(24, 97, 161) ;
+    border-radius: 43%;
+}

@@ -16,7 +16,9 @@
 .column{
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex-basis: 100%;/* very important to use flex basis to say class to take whole space which is given to you*/
+    max-width: 33.3%;
+ 
    
 
 }
