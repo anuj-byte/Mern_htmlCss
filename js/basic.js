@@ -1,4 +1,4 @@
-let a=19
+/*let a=19
 console.log(typeof a)
 let b ="anuj"
 console.log(typeof b)
@@ -32,4 +32,14 @@ const ku=true
 console.log(typeof !true)
 let age="35"
 console.log(+age)//conversion of number to string and vice-versa.
+
+let a=0
+let year=12
+console.log(a||'ten') 
+console.log(a??year??'ten') //nullish coalescing operator to the or operator make the 0 has no value so to make use of that we use these operator
+
+let a=0;
+x=(a!==undefined&& a!==null)?a:'ten'
+console.log(x)*/
+
 
