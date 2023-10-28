@@ -146,7 +146,7 @@ StudentOne.display()
 let osc=StudentOne.display.bind(StudentTwo)
 osc()
 StudentOne.display()
-let osc2=StudentOne.display.bind(StudentTwo)
+let osc2x=StudentOne.display.bind(StudentTwo)
 osc()
 
 
