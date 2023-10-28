@@ -117,7 +117,7 @@ console.log(displayaUser("anuj","analyst","admin"))
 const clone1=(name,age)=>{
     return `${name} is ${age}`
 }
-console.log(clone1('anuj',12))*/
+console.log(clone1('anuj',12))
 //searching the index
 let str1="Rajan is a good boy and great"
 console.log(str1.indexOf('g'))
@@ -129,7 +129,23 @@ console.log(pos1,pos2)
 console.log(str1.substring(0,5))
 str2="how to change the language java to java2"
 let arr=str2.split(" ") 
-console.log(arr)
+console.log(arr)*/
+//Binding of object with function
+let StudentOne={
+    name1:"anuj",
+    display:function(){
+        console.log(`${this.name1} is the name of developer`)
+
+    }
+}
+let StudentTwo={
+    name1:"anmol",
+
+}
+StudentOne.display()
+let osc=StudentOne.display.bind(StudentTwo)
+osc()
+
 
 
 
