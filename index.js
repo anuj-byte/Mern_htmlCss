@@ -129,7 +129,7 @@ console.log(pos1,pos2)
 console.log(str1.substring(0,5))
 str2="how to change the language java to java2"
 let arr=str2.split(" ") 
-console.log(arr)*/
+console.log(arr)
 //Binding of object with function
 let StudentOne={
     name1:"anuj",
@@ -147,7 +147,15 @@ let osc=StudentOne.display.bind(StudentTwo)
 osc()
 StudentOne.display()
 let osc2x=StudentOne.display.bind(StudentTwo)
-osc()
+osc()*/
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  const demo =document.querySelector('.demo')
+  demo.innerHTML=person.name + "," + person.age +  ","+person.city
+ // document.querySelector("demo").innerHTML = person.name;
 
 
 
