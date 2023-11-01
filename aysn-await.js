@@ -15,7 +15,7 @@ console.log(result)*/
     const result =await fetchdata(1)
     console.log(result)
 }
-caller()*/
+caller()
 
 //one more way to make promise in normal function by using promise reject and resolve scenario
 
@@ -38,4 +38,6 @@ async function caller2(){
     
     
 }
-caller2()
+caller2()*/
+
+
